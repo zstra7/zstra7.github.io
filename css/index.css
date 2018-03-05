@@ -1,0 +1,38 @@
+
+.cards {
+  padding-top: 0px;
+}
+
+
+.card {
+  width: 33%;
+  display: inline-block;
+  margin-bottom: 24px;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.card h3 {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  padding: 10px;
+  background-color: white;
+  font-size: 16px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  transition: color 0.3s;
+  transition: background-color 0.4s;
+}
+
+.card:hover h3 {
+  background-color: #ffcb06;
+  color: white;
+}

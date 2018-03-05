@@ -1,0 +1,30 @@
+
+button {
+  /*
+  padding: 16px;
+  border: none;
+  background-color: #ffcb06;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;*/
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 24px 12px;
+  letter-spacing: 1.8px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 30px;
+  background-color: #ffcb06;
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.15);
+  border: solid 2px WHITE;
+  border-color: transparent;
+}
+
+
+.signup-banner {
+  padding-top: 56px;
+  background-color: rebeccapurple;
+  padding-bottom: 56px;
+  color: #F0C808;
+}

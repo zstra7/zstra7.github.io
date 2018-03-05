@@ -1,0 +1,113 @@
+
+
+header {
+  height: 550px;
+  width: 100%;
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+}
+
+header img {
+  width: 200px;
+}
+
+.header-content {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.header-content p {
+  margin-top: 0;
+  padding-top: 0;
+  color: white;
+}
+
+.header-content h1 {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5em;
+  color: white;
+}
+
+nav {
+  background-color: #232323;
+}
+
+.nav-container, .banner-wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  padding: 16px;
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+ul.social {
+  text-align: right;
+}
+
+.social img {
+  height: 17px;
+}
+
+section {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-text p {
+  max-width: 550px;
+  /*margin: 0 auto;*/
+  margin-left: auto;
+  margin-right: auto;
+  color: #484848;
+}
+
+p.quote-author {
+  color: #848484;
+}
+
+.cross-spacer {
+/*  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; */
+}
+
+
+footer {
+  background-color: #eee;
+  color:#848484;
+}
+
+.footer-wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
