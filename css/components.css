@@ -28,3 +28,19 @@ button {
   padding-bottom: 56px;
   color: #F0C808;
 }
+
+.link-img {
+  height: 15px;
+  /*transform: translateY(1px);*/
+  transition: transform 0.4s;
+  bottom: -2px;
+  position: relative;
+}
+
+.fancy-link {
+  display: block;
+}
+
+.fancy-link:hover .link-img{
+  transform: translateX(5px);
+}
