@@ -3,7 +3,7 @@
 header {
   height: 550px;
   width: 100%;
-  background-image: url('../img/hero.jpg');
+  background-image: url('../img/hero.png');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -77,6 +77,10 @@ ul.social {
   height: 17px;
 }
 
+.small-img {
+  max-width: 300px;
+}
+
 section {
   max-width: 1024px;
   margin: 0 auto;
@@ -103,6 +107,18 @@ p.quote-author {
 .cross-spacer {
 /*  margin-top: 0.5rem;*/
   margin-bottom: 1em;
+}
+
+.floated-photo {
+  float: left;
+  padding: 10px;
+  max-width: 200px;
+}
+
+.floated-photo:after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 
