@@ -88,6 +88,10 @@ section {
   padding-bottom: 56px;
 }
 
+section > h2:first-child {
+  margin-top: 0;
+}
+
 .center-text {
   text-align: center;
 }
@@ -111,14 +115,8 @@ p.quote-author {
 
 .floated-photo {
   float: left;
-  padding: 10px;
-  max-width: 200px;
-}
-
-.floated-photo:after {
-    content: "";
-    clear: both;
-    display: table;
+  padding: 20px;
+  max-width: 500px;
 }
 
 

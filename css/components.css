@@ -44,3 +44,42 @@ button {
 .fancy-link:hover .link-img{
   transform: translateX(5px);
 }
+
+/*img box */
+.image-box {
+  background-image: url("../img/ben-cropped.png");
+  background-size: cover;
+  min-height: 750px;
+  position: relative;
+}
+
+.image-box.mission {
+  background-image: url("../img/mission.jpg");
+  background-position: center;
+}
+
+.image-box-text {
+  background-color: white;
+  /*border: 3px solid #ffcb06;*/
+  position: absolute;
+  bottom: 0px;
+  padding: 20px;
+  max-width: 500px;
+  left:0;
+  /*border-radius: 6px;*/
+  margin: 0;
+}
+
+.padded-box {
+  padding:20px;
+}
+
+.img-txt-split {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-txt-split-txt {
+  padding: 40px;
+}
