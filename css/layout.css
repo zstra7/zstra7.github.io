@@ -34,6 +34,7 @@ header img {
   margin-bottom: 0.5rem;
   margin-top: 0.5em;
   color: white;
+  text-shadow: 1px 2px 3px #ffcb06;
 }
 
 nav {
@@ -65,7 +66,7 @@ nav li a {
   transition: color 0.4s;
 }
 
-nav li a:hover {
+nav li a:hover, nav li a.active {
   color: #ffcb06;
 }
 
