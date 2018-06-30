@@ -104,3 +104,30 @@
   font-weight: bold;
   color: #032a4b;
 }
+
+.brick {
+  padding: 1rem;
+  border: 1px solid #032a4b4f;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  position: relative;
+  margin-top: 100px;
+}
+
+.brick h3 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.brick img {
+  border: 10px solid white;
+  box-sizing: border-box;
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -62.5px;
+}
