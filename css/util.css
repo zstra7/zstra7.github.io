@@ -3,3 +3,11 @@
     clear: both;
     display: table;
 }
+
+.center {
+  text-align: center;
+}
+
+.no-pad-bot {
+  padding-bottom:  0;
+}
