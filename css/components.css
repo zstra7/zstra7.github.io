@@ -111,23 +111,21 @@
   border-radius: 4px;
   margin-bottom: 2rem;
   position: relative;
-  margin-top: 100px;
+  margin-top: 2rem;
+}
+
+.brick-top {
+  display: flex;
 }
 
 .brick h3 {
   text-align: center;
-  margin-top: 50px;
+  margin-left: 2rem;
 }
 
 .brick img {
-  border: 10px solid white;
   box-sizing: border-box;
-  width: 125px;
-  height: 125px;
+  width: 75px;
+  height: 75px;
   border-radius: 100%;
-  position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: -62.5px;
 }
