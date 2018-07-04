@@ -1,0 +1,44 @@
+html {
+  background-color: #032a4b;
+}
+
+p, .slider-content, footer {
+  color: #ffffffb8!important;
+}
+
+nav {
+  background-color: #ffcb06;
+}
+
+h3 {
+  color: white;
+}
+
+nav li a:hover, nav li a.active {
+  color: #032a4b;
+}
+
+.slick-dots li button:before {
+  color: white;
+}
+
+.slider-name {
+  color: white;
+}
+
+.card h3 {
+  background-color: #062045;
+  color: white;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white;
+}
+
+.button {
+  background-color: #032a4b
+}
+
+footer {
+  background-color: #062045;
+}
