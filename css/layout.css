@@ -42,7 +42,7 @@ nav {
 }
 
 .nav-container, .banner-wrapper {
-  max-width: 1024px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
@@ -83,7 +83,7 @@ ul.social {
 }
 
 section {
-  max-width: 1024px;
+  max-width: 1080px;
   margin: 0 auto;
   padding-top: 56px;
   padding-bottom: 56px;
@@ -120,6 +120,11 @@ p.quote-author {
   max-width: 500px;
 }
 
+label {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
 
 footer {
   background-color: #eee;
@@ -127,7 +132,7 @@ footer {
 }
 
 .footer-wrapper {
-  max-width: 1024px;
+  max-width: 1080px;
   margin: 0 auto;
   padding-top: 24px;
   padding-bottom: 24px;

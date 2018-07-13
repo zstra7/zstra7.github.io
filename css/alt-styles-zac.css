@@ -3,7 +3,7 @@ html {
   background: linear-gradient(to Bottom, #032a4b, #02315d);
 }
 
-p, .slider-content, footer, i {
+p, .slider-content, footer, i, label {
   color: #ffffffb8!important;
 }
 

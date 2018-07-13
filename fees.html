@@ -24,7 +24,8 @@
           <li><a href="services.html">Services</a></li>
           <li><a href="mission.html">Mission</a></li>
 					<li><a href="meet-the-trainers.html">Trainers</a></li>
-					<li><a class="active" href="stories.html">Stories</a></li>
+					<li><a href="stories.html">Stories</a></li>
+					<li><a class="active" href="fees.html">Prices</a></li>
 					<li><a href="ndis.html">NDIS</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
@@ -39,6 +40,7 @@
   </nav>
 	<section>
 		<h2>Fees</h2>
+		<p>Use the calculator below to find out which affordable option is for you.</p>
 		<label>
 			How many people?
 		</label>
@@ -47,6 +49,7 @@
 			<option value="2">With a partner</option>
 			<option value="3">Small group (3+)</option>
 		</select>
+		<br>
 		<label>
 			How many sessions per week?
 		</label>
@@ -56,6 +59,9 @@
 			<option value="2">3</option>
 			<option value="3">4</option>
 		</select>
+		<br>
+		<br>
+		<span class="price">$<output id="cost">40</output>pp</span>
 
 
 
@@ -74,22 +80,41 @@
 		var qty = document.getElementById('qty');
 		var sessions = document.getElementById('sess');
 		qty.onchange = function() {
+			var cost = 0;
 			switch(this.value) {
-				case 1:
-					var cost = individualPrices[sessions.value];
+				case '1':
+					cost = individualPrices[sessions.value];
 					break;
-				case 2:
-					var cost = partnerPrices[sessions.value];
+				case '2':
+					cost = partnerPrices[sessions.value];
 					break;
-				case 3:
-					var cost = groupPrices[sessions.value];
+				case '3':
+					cost = groupPrices[sessions.value];
 					break;
 			}
+			var output = document.getElementById('cost');
+			output.innerHTML = cost;
 		}
 
 		sessions.onchange = function() {
+			var cost = 0;
+			switch(qty.value) {
+				case '1':
+					cost = individualPrices[this.value];
+					break;
+				case '2':
+					cost = partnerPrices[this.value];
+					break;
+				case '3':
+					cost = groupPrices[this.value];
+					console.log(groupPrices[this.value]);
+					break;
+			}
+			var output = document.getElementById('cost');
+			output.innerHTML = cost;
 
 		}
+
 	</script>
 </body>
 </html>
