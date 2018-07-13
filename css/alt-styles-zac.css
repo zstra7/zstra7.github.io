@@ -3,7 +3,7 @@ html {
   background: linear-gradient(to Bottom, #032a4b, #02315d);
 }
 
-p, .slider-content, footer {
+p, .slider-content, footer, i {
   color: #ffffffb8!important;
 }
 
@@ -16,7 +16,7 @@ h3 {
 }
 
 nav li a:hover, nav li a.active {
-  color: #032a4b;
+  /*color: #032a4b;*/
 }
 
 .slick-dots li button:before {
@@ -38,6 +38,14 @@ nav li a:hover, nav li a.active {
 
 .button {
   color: #032a4b
+}
+
+.brick {
+  border-color: #062045;
+}
+
+.image-box-text {
+  background-color: #073056;
 }
 
 footer {
