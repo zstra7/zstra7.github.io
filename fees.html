@@ -43,30 +43,8 @@
   </nav>
 	<section>
 		<h2>Invest in your health with us today!</h2>
-		<p>Use the calculator below to find out which affordable option is for you.</p>
-		<label>
-			How many people?
-		</label>
-		<select id="qty">
-			<option value="1">Individual Sessions</option>
-			<option value="2">With a partner</option>
-			<option value="3">Small group (3+)</option>
-		</select>
-		<br>
-		<label>
-			How many sessions per week?
-		</label>
-		<select id="sess">
-			<option value="0">1</option>
-			<option value="1">2</option>
-			<option value="2">3</option>
-			<option value="3">4</option>
-		</select>
-		<br>
-		<br>
-		<span class="price">$<output id="cost">40</output>pp</span>
-
-
+		<p>Contact us for our current special offer.</p>
+		
 
 	</section>
 
@@ -75,49 +53,6 @@
 		    Smile and Move &copy; 2018  | <a href='contact.html'>Contact</a>
     </div>
 	</footer>
-	<script>
-		var individualPrices = [40, 70, 100, 120];
-		var partnerPrices = [30, 55, 80, 90];
-		var groupPrices = [25,40,50,60];
-
-		var qty = document.getElementById('qty');
-		var sessions = document.getElementById('sess');
-		qty.onchange = function() {
-			var cost = 0;
-			switch(this.value) {
-				case '1':
-					cost = individualPrices[sessions.value];
-					break;
-				case '2':
-					cost = partnerPrices[sessions.value];
-					break;
-				case '3':
-					cost = groupPrices[sessions.value];
-					break;
-			}
-			var output = document.getElementById('cost');
-			output.innerHTML = cost;
-		}
-
-		sessions.onchange = function() {
-			var cost = 0;
-			switch(qty.value) {
-				case '1':
-					cost = individualPrices[this.value];
-					break;
-				case '2':
-					cost = partnerPrices[this.value];
-					break;
-				case '3':
-					cost = groupPrices[this.value];
-					console.log(groupPrices[this.value]);
-					break;
-			}
-			var output = document.getElementById('cost');
-			output.innerHTML = cost;
-
-		}
-
-	</script>
+	
 </body>
 </html>
